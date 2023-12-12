@@ -16,13 +16,8 @@ const Hero = () => {
         </div>
 
         <div className="mt-60">
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915EFF]">Rahil</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I specialize in the development of user interfaces <br className="sm:block hidden" /> and web applications as a front-end developer.</p>
         </div>
         <div className=" object-contain mt-10 ml-10" >
           <img src={heroIamge} className="w-[600] h-[600px] rounded-full" />
