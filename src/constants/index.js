@@ -234,7 +234,7 @@ const projects = [
         ],
         image: simplePortfolio,
         source_code_link: "https://github.com/RahilPatel1715/portfolio",
-        live_lin: "https://app-three.rahilpatel.net",
+        live_link: "https://app-three.rahilpatel.net",
     },
     {
         name: "GPT-3",
@@ -256,7 +256,7 @@ const projects = [
         ],
         image: gpt3,
         source_code_link: "https://github.com/RahilPatel1715/ui_ux_design",
-        live_lin: "https://app-one.rahilpatel.net",
+        live_link: "https://app-one.rahilpatel.net",
     },
     {
         name: "Hoobank",
@@ -278,7 +278,7 @@ const projects = [
         ],
         image: hoobank,
         source_code_link: "https://github.com/RahilPatel1715/hoobank_design",
-        live_lin: "https://app-two.rahilpatel.net",
+        live_link: "https://app-two.rahilpatel.net",
     },
 ];
 
