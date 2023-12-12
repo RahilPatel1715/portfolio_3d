@@ -224,10 +224,6 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
                 name: "tailwind",
                 color: "pink-text-gradient",
             },
@@ -246,11 +242,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
+                name: "css",
                 color: "pink-text-gradient",
             },
         ],
@@ -264,15 +256,11 @@ const projects = [
             "",
         tags: [
             {
-                name: "nextjs",
+                name: "reactjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
+                name: "tailwind",
                 color: "pink-text-gradient",
             },
         ],
