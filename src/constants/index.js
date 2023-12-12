@@ -15,9 +15,9 @@ import {
     tailwind,
     git,
     figma,
-    carrent,
-    jobit,
-    tripguide,
+    simplePortfolio,
+    gpt3,
+    hoobank,
     threejs,
     bs,
     jira,
@@ -215,9 +215,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Simple Portfolio",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "",
         tags: [
             {
                 name: "react",
@@ -232,13 +232,14 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: simplePortfolio,
+        source_code_link: "https://github.com/RahilPatel1715/portfolio",
+        live_lin: "https://app-three.rahilpatel.net",
     },
     {
-        name: "Job IT",
+        name: "GPT-3",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "",
         tags: [
             {
                 name: "react",
@@ -253,13 +254,14 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: gpt3,
+        source_code_link: "https://github.com/RahilPatel1715/ui_ux_design",
+        live_lin: "https://app-one.rahilpatel.net",
     },
     {
-        name: "Trip Guide",
+        name: "Hoobank",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "",
         tags: [
             {
                 name: "nextjs",
@@ -274,8 +276,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: hoobank,
+        source_code_link: "https://github.com/RahilPatel1715/hoobank_design",
+        live_lin: "https://app-two.rahilpatel.net",
     },
 ];
 

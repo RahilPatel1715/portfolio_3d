@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import simplePortfolio from "./simplePortfolio.png";
+import gpt3 from "./GPT-3.png";
+import hoobank from "./Hoobank.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -29,9 +32,9 @@ import govCanada from "./company/GovernmentOfCanada.png"
 import ibm from "./company/IBM.png"
 import zonic from "./company/Zonic.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import carrent from "./carrent.png";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
 
 export {
   asrm,
@@ -61,7 +64,7 @@ export {
   reactjs,
   tailwind,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  simplePortfolio,
+  gpt3,
+  hoobank,
 };
