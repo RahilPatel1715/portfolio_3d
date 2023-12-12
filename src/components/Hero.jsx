@@ -8,25 +8,25 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-col sm:flex-row items-start gap-5 mt-10`}
       >
-        <div className='flex flex-col justify-center items-center mt-60'>
+        <div className='hidden sm:flex flex-col justify-center items-center mt-36'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div className="mt-60">
+        <div className="mt-0 sm:mt-36">
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915EFF]">Rahil</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>I specialize in the development of user interfaces <br className="sm:block hidden" /> and web applications as a front-end developer.</p>
         </div>
-        <div className=" object-contain mt-10 ml-10" >
-          <img src={heroIamge} className="w-[600] h-[600px] rounded-full" />
+        <div className=" object-contain mt-10" >
+          <img src={heroIamge} className="w-[425px] h-[500px] rounded-full" />
         </div>
       </div>
 
       {/* <ComputersCanvas /> */}
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-32 w-full  justify-center items-center hidden sm:flex'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
