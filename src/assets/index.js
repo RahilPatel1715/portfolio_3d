@@ -9,6 +9,7 @@ import close from "./close.svg";
 import simplePortfolio from "./simplePortfolio.png";
 import gpt3 from "./GPT-3.png";
 import hoobank from "./Hoobank.png";
+import youtubeClone from "./YoutubeClone.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -67,4 +68,5 @@ export {
   simplePortfolio,
   gpt3,
   hoobank,
+  youtubeClone,
 };

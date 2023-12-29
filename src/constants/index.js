@@ -22,6 +22,7 @@ import {
     bs,
     jira,
     sNow,
+    youtubeClone,
 } from "../assets";
 
 export const navLinks = [
@@ -242,7 +243,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "css",
+                name: "custom-css",
                 color: "pink-text-gradient",
             },
         ],
@@ -267,6 +268,28 @@ const projects = [
         image: hoobank,
         source_code_link: "https://github.com/RahilPatel1715/hoobank_design",
         live_link: "https://app-two.rahilpatel.net",
+    },
+    {
+        name: "Youtube_Clone",
+        description:
+            "",
+        tags: [
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "material ui",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "material ui",
+                color: "green-text-gradient",
+            },
+        ],
+        image: youtubeClone,
+        source_code_link: "https://github.com/RahilPatel1715/youtube_clone",
+        live_link: "https://app-four.rahilpatel.net",
     },
 ];
 
