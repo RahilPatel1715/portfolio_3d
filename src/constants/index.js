@@ -283,7 +283,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
             {
-                name: "material ui",
+                name: "Rapid API",
                 color: "green-text-gradient",
             },
         ],
