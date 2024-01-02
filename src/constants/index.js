@@ -23,6 +23,7 @@ import {
     jira,
     sNow,
     youtubeClone,
+    fitnessApp,
 } from "../assets";
 
 export const navLinks = [
@@ -221,7 +222,7 @@ const projects = [
             "",
         tags: [
             {
-                name: "react",
+                name: "reactjs",
                 color: "blue-text-gradient",
             },
             {
@@ -239,7 +240,7 @@ const projects = [
             "",
         tags: [
             {
-                name: "react",
+                name: "reactjs",
                 color: "blue-text-gradient",
             },
             {
@@ -286,10 +287,44 @@ const projects = [
                 name: "Rapid API",
                 color: "green-text-gradient",
             },
+            {
+                name: "Youtube v3 API",
+                color: "orange-text-gradient",
+            },
         ],
         image: youtubeClone,
         source_code_link: "https://github.com/RahilPatel1715/youtube_clone",
         live_link: "https://app-four.rahilpatel.net",
+    },
+    {
+        name: "Fitness App",
+        description:
+            "",
+        tags: [
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "material ui",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Rapid API",
+                color: "green-text-gradient",
+            },
+            {
+                name: "ExerciseDB API",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "YouTube Search API",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: fitnessApp,
+        source_code_link: "https://github.com/RahilPatel1715/fitness_app",
+        live_link: "https://app-five.rahilpatel.net",
     },
 ];
 
